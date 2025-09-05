@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    /**Implemente un programa solicite un numero por teclado que solicite un numer e indique si es primo */
+    /**Implemente un programa solicite un numero por teclado que solicite un numer e indique si es primo 
     int num;
 
     cout <<"ingrese un numero";
@@ -18,36 +18,36 @@ int main()
     }
     cout<<((d==2)? "primo":"no primo");
 
-    /**Solicita un numero e imprima los numeros primos menores que dicho numeros*/
-#include <iostream>
+    /**Solicita un numero e imprima los numeros primos menores que dicho numeros
+#include <iostream>*/
 
 int main() {
     int numero;
     
-    // Solicita un número al usuario
+    
     std::cout << "Ingresa un numero entero: ";
     std::cin >> numero;
     
-    // Si el número es 2 o más, busca primos
+   
     if (numero >= 2) {
         std::cout << "Los numeros primos menores que " << numero << " son:" << std::endl;
         
-        int i = 2; // Inicia el contador en 2, el primer número primo
+        int i = 2; 
         
         while (i < numero) {
-            bool es_primo = true; // Asume que el número es primo al inicio
+            bool es_primo = true; 
             int j = 2;
             
-            // Bucle para verificar si i es primo
+            
             while (j * j <= i) {
                 if (i % j == 0) {
-                    es_primo = false; // Si es divisible, no es primo
+                    es_primo = false; 
                     break;
                 }
                 j++;
             }
             
-            // Si el número sigue siendo primo, lo imprime
+            
             if (es_primo) {
                 std::cout << i << " ";
             }
