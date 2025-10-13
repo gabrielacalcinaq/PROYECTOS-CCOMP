@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1758636622 source:c:\ccomp2\proyectos-ccomp\practicas_casa1\ejerciicioexamen\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+
