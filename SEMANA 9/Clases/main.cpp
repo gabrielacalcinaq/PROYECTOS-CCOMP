@@ -2,8 +2,19 @@
 
 using namespace std;
 
-int main()
-{
-    cout << "Hello world!" << endl;
-    return 0;
-}
+class estudiante{
+private:
+    string nombre;
+    int edad;
+
+public:
+    Estudiante(string n, int e){
+    nombre = n;
+    edad = e;
+    }
+
+    void mostrarDatos() {
+        cout << "Nombre: " << nombre << endl;
+        cout << "Edad: " << edad << endl;
+    }
+};
